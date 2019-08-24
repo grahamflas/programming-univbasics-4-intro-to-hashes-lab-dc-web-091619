@@ -4,14 +4,16 @@ end
 
 def my_hash
     my_hash = {
-        :name => "Graham",
-        :l1 => "English",
+        :name => "Graham"
+        :l1 => "English"
         :l2 => "Deutsch"
     }
 end
 
 def pioneer
-    # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+    pioneer_hash = {
+        name: "Grace Hopper"
+    }
 end
 
 def id_generator
@@ -31,3 +33,4 @@ def update_counting_hash(hash, key)
     # if the provided key is not present in the hash, add it and assign it to the value of 1
     # if the provided key is present, increment its value by 1
 end
+  
